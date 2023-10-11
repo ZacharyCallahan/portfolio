@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Nav = () => {
+const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 w-full z-50 bg-white dark:bg-gray-800 shadow-md rounded-b-lg p-4">
             <div className="w-10/12 m-auto flex justify-between items-center h-12">
@@ -35,4 +35,4 @@ const Nav = () => {
     );
 };
 
-export default Nav;
+export default Navbar;
