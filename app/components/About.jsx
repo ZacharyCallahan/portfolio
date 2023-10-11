@@ -1,12 +1,12 @@
 import Image from "next/image";
-import test from "../../public/test.jpeg";
+import AboutPFP from "../../public/AboutPFP.png";
 
 const About = () => {
     return (
         <div className="w-10/12 m-auto gap-24 flex items-center justify-center bg-white dark:bg-gray-800 p-10 rounded-xl shadow-md hover:shadow-xl transform transition-all duration-500">
             <Image
                 alt="Zachary"
-                src={test}
+                src={AboutPFP}
                 width={600}
                 height={600}
                 className="rounded-md border-4 border-gradient-to-br from-blue-500 to-indigo-600 dark:border-gradient-to-br dark:from-gray-500 dark:to-gray-700"
