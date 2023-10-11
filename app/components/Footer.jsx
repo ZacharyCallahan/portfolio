@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <div className="bg-white dark:bg-gray-800 p-10 mt-32 rounded-t-xl shadow-inner">
+        <div className="border-t border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 p-10 mt-32 rounded-t-xl shadow-inner">
             <h2 className="text-2xl font-semibold mb-6 text-gray-900 dark:text-white">
                 Get in Touch
             </h2>
@@ -50,7 +50,6 @@ const Footer = () => {
                         required></textarea>
                 </div>
                 <button
-                    
                     type="submit"
                     className="w-full py-2 mt-4 rounded-md bg-blue-500 hover:bg-blue-600 text-white focus:outline-none focus:bg-blue-700 transition duration-200">
                     Submit
