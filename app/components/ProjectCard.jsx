@@ -3,18 +3,28 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
 
-const ProjectCard = ({ title, description, image, imageOnLeft, codeLink, siteLink, children }) => {
+const ProjectCard = ({
+    title,
+    description,
+    image,
+    imageOnLeft,
+    codeLink,
+    siteLink,
+    children,
+}) => {
     return (
-        <div className="flex justify-between items-center bg-white dark:bg-gray-800 p-6 rounded-md shadow-md hover:shadow-xl transform transition-all duration-500">
-            {imageOnLeft ? (
-                <Image
-                    alt="project"
-                    src={image}
-                    width={1080}
-                    height={1920}
-                    className="rounded-md shadow-sm w-2/5 h-2/5"
-                />
-            ) : null}
+        <div
+            className={`${
+                imageOnLeft ? "flex-row" : "flex-row-reverse"
+            } flex justify-between items-center bg-white dark:bg-gray-800 p-6 rounded-md shadow-md hover:shadow-xl transform transition-all duration-500`}>
+            <Image
+                alt="project"
+                src={image}
+                width={1080}
+                height={1920}
+                className="rounded-md shadow-sm w-2/5 h-2/5"
+            />
+
             <div className="flex flex-col justify-between text-center items-center w-6/12 space-y-4">
                 <div>
                     <h5 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">
@@ -52,15 +62,6 @@ const ProjectCard = ({ title, description, image, imageOnLeft, codeLink, siteLin
                     ) : null}
                 </div>
             </div>
-            {!imageOnLeft ? (
-                <Image
-                    alt="project"
-                    src={image}
-                    width={600}
-                    height={300}
-                    className="rounded-md shadow-sm"
-                />
-            ) : null}
         </div>
     );
 };
