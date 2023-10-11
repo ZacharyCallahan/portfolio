@@ -101,7 +101,7 @@ const Card = () => {
                 </div>
             </div>
 
-            <div className=" bg-white dark:bg-gray-800 border-y border-gray-300 dark:border-gray-700 shadow-md font-semibold">
+            <div className=" bg-white dark:bg-gray-800 xl:border-y border-x border-gray-300 dark:border-gray-700 shadow-md font-semibold">
                 <h3 className="text-xl p-6 border-gray-300 dark:border-gray-700 text-left font-semibold text-gray-800 dark:text-gray-400">
                     BACKEND
                 </h3>
