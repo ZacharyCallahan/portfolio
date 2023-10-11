@@ -50,6 +50,7 @@ const Footer = () => {
                         required></textarea>
                 </div>
                 <button
+                    
                     type="submit"
                     className="w-full py-2 mt-4 rounded-md bg-blue-500 hover:bg-blue-600 text-white focus:outline-none focus:bg-blue-700 transition duration-200">
                     Submit

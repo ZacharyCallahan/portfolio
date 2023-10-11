@@ -29,6 +29,7 @@ const ProjectCard = ({ title, description, image, imageOnLeft, codeLink, siteLin
                 </div>
                 <div className="flex gap-9 mt-4">
                     <Link
+                        target="_blank"
                         href={`${codeLink}`}
                         className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-500">
                         Code{" "}
@@ -37,15 +38,18 @@ const ProjectCard = ({ title, description, image, imageOnLeft, codeLink, siteLin
                             className="text-black dark:text-gray-300"
                         />
                     </Link>
-                    <Link
-                        href={`${siteLink}`}
-                        className="flex items-center gap-2 text-green-600 dark:text-green-400 hover:text-green-500">
-                        Live Demo{" "}
-                        <HiOutlineExternalLink
-                            size={32}
-                            className="text-black dark:text-gray-300"
-                        />
-                    </Link>
+                    {siteLink != false ? (
+                        <Link
+                            target="_blank"
+                            href={`${siteLink}`}
+                            className="flex items-center gap-2 text-green-600 dark:text-green-400 hover:text-green-500">
+                            Live Demo{" "}
+                            <HiOutlineExternalLink
+                                size={32}
+                                className="text-black dark:text-gray-300"
+                            />
+                        </Link>
+                    ) : null}
                 </div>
             </div>
             {!imageOnLeft ? (

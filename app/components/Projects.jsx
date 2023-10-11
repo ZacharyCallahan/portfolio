@@ -46,7 +46,10 @@ const Projects = () => {
                      Ai-Vorce offers couples the opportunity for therapeutic interaction anytime they need.
                     "
                     imageOnLeft={true}
-                    image={AiVorce}>
+                    image={AiVorce}
+                    codeLink={"https://github.com/ZacharyCallahan/ai-vorce"}
+                    siteLink={"https://ai-vorce.vercel.app/"}
+                >
                     <FaJsSquare color="#F7DF1E" size={32} />
                     <SiNextdotjs color="#000000" size={32} />
                     <FaReact color="#61DAFB" size={32} />
@@ -62,7 +65,12 @@ const Projects = () => {
                     it has been a significant learning journey. 
                     I'm actively enhancing its functionalities and addressing any identified issues."
                     imageOnLeft={false}
-                    image={GroovyGear}>
+                    image={GroovyGear}
+                    codeLink={
+                        "https://github.com/ZacharyCallahan/EcommerceWebsite"
+                    }
+                    siteLink={"https://groovygear.vercel.app/"}
+                >
                     <FaJsSquare color="#F7DF1E" size={32} />
                     <FaReact color="#61DAFB" size={32} />
                     <FaNodeJs color="#339933" size={32} />
@@ -84,7 +92,10 @@ const Projects = () => {
                      GlitchGuard stands as an indispensable tool for web development.
                     "
                     imageOnLeft={true}
-                    image={GlitchGuard}>
+                    image={GlitchGuard}
+                    codeLink={"https://github.com/ZacharyCallahan/glitchguard"}
+                    siteLink={false}
+                >
                     <SiTypescript color="#3178C6" size={32} />
                     <SiNextdotjs color="#000000" size={32} />
                     <FaReact color="#61DAFB" size={32} />

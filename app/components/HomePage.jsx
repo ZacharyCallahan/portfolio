@@ -43,6 +43,7 @@ import {
     SiVercel,
     SiGradle,
 } from "react-icons/si";
+import Link from "next/link";
 
 const HomePage = () => {
     return (
@@ -65,20 +66,30 @@ const HomePage = () => {
                         <p className="text-3xl font-medium leading-snug text-blue-600 dark:text-blue-400 mb-6">
                             Full-Stack Developer
                         </p>
-                        <p className="text-lg font-light leading-relaxed text-gray-800 dark:text-gray-400 mb-6">
-                            Passionate developer based in Belgrade, Serbia.
-                        </p>
-                        <div className="flex space-x-6 justify-center md:justify-start">
-                            <a
-                                href="#"
+                        <div className="">
+                            <p className="text-lg font-light leading-relaxed text-gray-800 dark:text-gray-400 ">
+                                "If something's important enough, you should
+                                try. <br /> Even if - the probable outcome is
+                                failure."
+                            </p>
+                            <p className="mb-6 text-lg font-light leading-relaxed text-gray-800 dark:text-gray-400 ">
+                                {" "}
+                                - Elon Musk
+                            </p>
+                        </div>
+                        <div className="flex space-x-6 justify-start">
+                            <Link
+                                target="_blank"
+                                href="https://www.linkedin.com/in/zachary-callahan-9a08b7254/"
                                 className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-600 transition-colors duration-300">
                                 <SiLinkedin size={32} />
-                            </a>
-                            <a
-                                href="#"
+                            </Link>
+                            <Link
+                                target="_blank"
+                                href="https://github.com/ZacharyCallahan"
                                 className="text-gray-800 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-500 transition-colors duration-300">
                                 <SiGithub size={32} />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
