@@ -45,7 +45,7 @@ import IconCard from "./IconCard";
 
 const HomePage = () => {
     return (
-        <div className="w-9/12 m-auto gap-24 flex flex-col h-fit  justify-center ">
+        <div className="  gap-24 flex flex-col h-fit  justify-center ">
             <div className="bg-white dark:bg-gray-900 p-12 rounded-2xl shadow-2xl border dark:border-gray-700 transition-all transform hover:-translate-y-2 duration-300">
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     <div className="flex-shrink-0 mb-8 md:mb-0">

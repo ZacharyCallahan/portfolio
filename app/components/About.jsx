@@ -3,7 +3,7 @@ import AboutPFP from "../../public/AboutPFP.png";
 
 const About = () => {
     return (
-        <div className="w-9/12 m-auto gap-12 flex items-center justify-center bg-white dark:bg-gray-800 p-10 rounded-xl shadow-md hover:shadow-xl transform transition-all duration-500">
+        <div className="  gap-12 flex items-center justify-center bg-white dark:bg-gray-800 p-10 rounded-xl shadow-md hover:shadow-xl transform transition-all duration-500">
             <Image
                 alt="Zachary"
                 src={AboutPFP}

@@ -26,7 +26,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
     return (
-        <div className="w-9/12 m-auto">
+        <div className=" ">
             <div className="pb-12 w-fit">
                 <h4 className="text-4xl font-bold text-gray-900  dark:text-gray-100 mb-4 hover:text-blue-600 transition-colors duration-300">
                     Projects
