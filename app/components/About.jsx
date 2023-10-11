@@ -3,7 +3,7 @@ import AboutPFP from "../../public/AboutPFP.png";
 
 const About = () => {
     return (
-        <div className="  gap-12 flex items-center justify-center bg-white dark:bg-gray-800 p-10 rounded-xl shadow-md hover:shadow-xl transform transition-all duration-500">
+        <div className="xl:flex-nowrap xl:justify-between flex-wrap  gap-12 flex items-center justify-center bg-white dark:bg-gray-800 p-3 sm:p-6 rounded-xl shadow-md hover:shadow-xl transform transition-all duration-500">
             <Image
                 alt="Zachary"
                 src={AboutPFP}
@@ -11,7 +11,7 @@ const About = () => {
                 height={300}
                 className="rounded-md border-4 border-gradient-to-br from-blue-500 to-indigo-600 dark:border-gradient-to-br dark:from-gray-500 dark:to-gray-700"
             />
-            <div className="space-y-6 ml-10">
+            <div className="space-y-6 ">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                     About Me
                 </h2>

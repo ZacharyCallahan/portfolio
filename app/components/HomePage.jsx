@@ -45,16 +45,16 @@ import IconCard from "./IconCard";
 
 const HomePage = () => {
     return (
-        <div className="  gap-24 flex flex-col h-fit  justify-center ">
-            <div className="bg-white dark:bg-gray-900 p-12 rounded-2xl shadow-2xl border dark:border-gray-700 transition-all transform hover:-translate-y-2 duration-300">
-                <div className="flex flex-col md:flex-row items-center justify-between">
-                    <div className="flex-shrink-0 mb-8 md:mb-0">
+        <div className="gap-24 flex flex-col h-fit  justify-center ">
+            <div className=" bg-white dark:bg-gray-900 p-12 rounded-2xl shadow-2xl border dark:border-gray-700 transition-all transform hover:-translate-y-2 duration-300">
+                <div className="xl:flex-nowrap xl:justify-between xl:flex-row flex-wrap  flex flex-col items-center justify-between">
+                    <div className="flex-shrink-0  mb-8 md:mb-0">
                         <Image
                             alt="Stefan Topalovic"
                             src={pfp}
                             width={250}
                             height={250}
-                            className="rounded-full border-4 border-blue-500 dark:border-blue-300 shadow-md"
+                            className="rounded-full border-4 xl:mb-0 mb-6 border-blue-500 dark:border-blue-300 shadow-md"
                         />
                     </div>
                     <div className="md:ml-8 text-center md:text-left">
@@ -74,7 +74,7 @@ const HomePage = () => {
                                 - Elon Musk
                             </p>
                         </div>
-                        <div className="flex space-x-6 justify-start">
+                        <div className="flex space-x-6 md:justify-start justify-center">
                             <Link
                                 target="_blank"
                                 href="https://www.linkedin.com/in/zachary-callahan-9a08b7254/"
@@ -92,7 +92,7 @@ const HomePage = () => {
                 </div>
             </div>
 
-            <div className="flex justify-between gap-10">
+            <div className="xl:flex-nowrap xl:justify-between flex-wrap  flex justify-center gap-10">
                 {/* Front-end Card */}
                 <Card title="Front-end">
                     <IconCard

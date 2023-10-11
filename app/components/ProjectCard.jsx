@@ -16,16 +16,16 @@ const ProjectCard = ({
         <div
             className={`${
                 imageOnLeft ? "flex-row" : "flex-row-reverse"
-            } flex justify-between items-center bg-white dark:bg-gray-800 p-6 rounded-md shadow-md hover:shadow-xl transform transition-all duration-500`}>
+            } flex gap-6 flex-wrap justify-center  xl:flex-nowrap xl:justify-between items-center bg-white dark:bg-gray-800 p-3 sm:p-6 rounded-md shadow-md hover:shadow-xl transform transition-all duration-500`}>
             <Image
                 alt="project"
                 src={image}
-                width={1080}
-                height={1920}
-                className="rounded-md shadow-sm w-2/5 h-2/5"
+                width={480}
+                height={720}
+                className="rounded-md shadow-sm"
             />
 
-            <div className="flex flex-col justify-between text-center items-center w-6/12 space-y-4">
+            <div className="flex flex-col justify-between text-center items-center space-y-4">
                 <div>
                     <h5 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">
                         {title}
@@ -34,7 +34,7 @@ const ProjectCard = ({
                         {description}
                     </p>
                 </div>
-                <div className="text-4xl flex gap-6 text-gray-800 dark:text-gray-400">
+                <div className="text-4xl flex xl:flex-nowrap xl:justify-between flex-wrap justify-center gap-6 text-gray-800 dark:text-gray-400">
                     {children}
                 </div>
                 <div className="flex gap-9 pt-6">
