@@ -16,7 +16,7 @@ const ProjectCard = ({
         <div
             className={`${
                 imageOnLeft ? "flex-row" : "flex-row-reverse"
-            } flex gap-6 flex-wrap justify-center  xl:flex-nowrap xl:justify-between items-center bg-white dark:bg-gray-800 p-3 sm:p-6 rounded-md shadow-md hover:shadow-xl transform transition-all duration-500`}>
+            } flex gap-6 flex-wrap justify-center  xl:flex-nowrap xl:justify-between items-center bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 p-3 sm:p-6 rounded-md shadow-md hover:shadow-xl transform transition-all duration-500`}>
             <Image
                 alt="project"
                 src={image}

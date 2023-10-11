@@ -46,7 +46,7 @@ import IconCard from "./IconCard";
 const HomePage = () => {
     return (
         <div className="gap-24 flex flex-col h-fit  justify-center ">
-            <div className=" bg-white dark:bg-gray-900 p-12 rounded-2xl shadow-2xl border dark:border-gray-700 transition-all transform hover:-translate-y-2 duration-300">
+            <div className=" bg-white dark:bg-gray-900 p-12 rounded-2xl shadow-2xl border border-gray-300 dark:border-gray-700 transition-all transform hover:-translate-y-2 duration-300">
                 <div className="xl:flex-nowrap xl:justify-between xl:flex-row flex-wrap  flex flex-col items-center justify-between">
                     <div className="flex-shrink-0  mb-8 md:mb-0">
                         <Image
@@ -78,13 +78,13 @@ const HomePage = () => {
                             <Link
                                 target="_blank"
                                 href="https://www.linkedin.com/in/zachary-callahan-9a08b7254/"
-                                className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-600 transition-colors duration-300">
+                                className="text-gray-800 dark:text-gray-300 hover:text-blue-800  dark:hover:text-blue-600 transition-colors duration-300">
                                 <SiLinkedin size={32} />
                             </Link>
                             <Link
                                 target="_blank"
                                 href="https://github.com/ZacharyCallahan"
-                                className="text-gray-800 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-500 transition-colors duration-300">
+                                className="text-gray-800 dark:text-gray-300 hover:text-blue-800  dark:hover:text-blue-600 transition-colors duration-300">
                                 <SiGithub size={32} />
                             </Link>
                         </div>
