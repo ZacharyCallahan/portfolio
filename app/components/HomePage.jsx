@@ -68,12 +68,11 @@ const HomePage = () => {
                         </p>
                         <div className="">
                             <p className="text-lg font-light leading-relaxed text-gray-800 dark:text-gray-400 ">
-                                "If something's important enough, you should
-                                try. <br /> Even if - the probable outcome is
-                                failure."
+                                {'"'}If something{"'"}s important enough, you
+                                should try. <br /> Even if - the probable
+                                outcome is failure.{'"'}
                             </p>
                             <p className="mb-6 text-lg font-light leading-relaxed text-gray-800 dark:text-gray-400 ">
-                                {" "}
                                 - Elon Musk
                             </p>
                         </div>

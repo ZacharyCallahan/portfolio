@@ -22,7 +22,7 @@ const About = () => {
                     passion for creating innovative solutions. I continuously
                     seek exciting opportunities in the Full-Stack, Back-End, or
                     Front-End developer fields to apply my skills. I thrive on
-                    collaborative projects, and I'm dedicated to delivering
+                    collaborative projects, and I{"'"}m dedicated to delivering
                     high-quality results that meet the evolving needs of
                     businesses and customers alike.
                 </p>
@@ -30,7 +30,7 @@ const About = () => {
                     Technology is my canvas, and I use code as my brush to craft
                     digital experiences. With a deep commitment to staying
                     current with industry trends and a knack for
-                    problem-solving, I'm ready to tackle any challenge that
+                    problem-solving, I{"'"}m ready to tackle any challenge that
                     comes my way. My goal is to create user-friendly, visually
                     appealing, and robust web applications that cater to
                     evolving business and customer needs, all while ensuring a
