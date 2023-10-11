@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
     return (
         <div className="border-t border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 p-10 mt-32 rounded-t-xl shadow-inner">
@@ -7,7 +5,10 @@ const Footer = () => {
                 Get in Touch
             </h2>
 
-            <form className="space-y-6">
+            <form
+                action="https://formspree.io/f/xeqbvajr"
+                method="POST"
+                className="space-y-6">
                 <div>
                     <label
                         htmlFor="name"
@@ -18,7 +19,7 @@ const Footer = () => {
                         type="text"
                         id="name"
                         name="name"
-                        className="w-full p-3 mt-2 rounded-md border dark:border-gray-600 focus:outline-none focus:border-blue-500 dark:bg-gray-700"
+                        className="w-full p-3 mt-2 text-gray-700 dark:text-gray-300 rounded-md border dark:border-gray-600 focus:outline-none focus:border-blue-500 dark:bg-gray-700"
                         required
                     />
                 </div>
@@ -32,21 +33,21 @@ const Footer = () => {
                         type="email"
                         id="email"
                         name="email"
-                        className="w-full p-3 mt-2 rounded-md border dark:border-gray-600 focus:outline-none focus:border-blue-500 dark:bg-gray-700"
+                        className="w-full p-3 mt-2 text-gray-700 dark:text-gray-300 rounded-md border dark:border-gray-600 focus:outline-none focus:border-blue-500 dark:bg-gray-700"
                         required
                     />
                 </div>
                 <div>
                     <label
                         htmlFor="message"
-                        className="block text-gray-700 dark:text-gray-300">
+                        className="block text-gray-700  dark:text-gray-300">
                         Message
                     </label>
                     <textarea
                         id="message"
                         name="message"
                         rows="5"
-                        className="w-full p-3 mt-2 rounded-md border dark:border-gray-600 focus:outline-none focus:border-blue-500 dark:bg-gray-700"
+                        className="w-full p-3 mt-2 text-gray-700 dark:text-gray-300 rounded-md border dark:border-gray-600 focus:outline-none focus:border-blue-500 dark:bg-gray-700"
                         required></textarea>
                 </div>
                 <button
