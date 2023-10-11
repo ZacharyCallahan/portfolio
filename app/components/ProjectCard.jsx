@@ -20,11 +20,11 @@ const ProjectCard = ({ title, description, image, imageOnLeft, codeLink, siteLin
                     <h5 className="text-3xl font-bold text-gray-800 dark:text-white mb-2">
                         {title}
                     </h5>
-                    <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+                    <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
                         {description}
                     </p>
                 </div>
-                <div className="text-4xl flex gap-6 text-gray-800 dark:text-gray-300">
+                <div className="text-4xl flex gap-6 text-gray-800 dark:text-gray-400">
                     {children}
                 </div>
                 <div className="flex gap-9 mt-4">

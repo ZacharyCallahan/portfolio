@@ -6,7 +6,7 @@ import Projects from './components/Projects'
 
 export default function Home() {
   return (
-    <main className='space-y-72 mt-24'>
+    <main className='space-y-36 mt-36'>
       <HomePage />
       <About />
       <Projects />

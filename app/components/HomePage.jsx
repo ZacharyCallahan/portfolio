@@ -1,53 +1,51 @@
+import Image from "next/image";
+import Link from "next/link";
+import {
+    FaBootstrap,
+    FaCss3,
+    FaFigma,
+    FaGit,
+    FaGithub,
+    FaHtml5,
+    FaJava,
+    FaJsSquare,
+    FaNodeJs,
+    FaPython,
+    FaReact,
+} from "react-icons/fa";
 import {
     SiAmazonaws,
     SiApachemaven,
-    SiGithub,
-    SiLinkedin,
-    SiMui,
-    SiVisualstudiocode,
-} from "react-icons/si";
-import Card from "./Card";
-import Image from "next/image";
-import pfp from "../../public/pfp.jpeg";
-import IconCard from "./IconCard";
-import {
-    FaReact,
-    FaJsSquare,
-    FaPython,
-    FaJava,
-    FaHtml5,
-    FaCss3,
-    FaGithub,
-    FaGit,
-    FaFigma,
-    FaBootstrap,
-    FaNodeJs,
-} from "react-icons/fa";
-import {
-    SiTypescript,
-    SiNextdotjs,
-    SiTailwindcss,
-    SiRedux,
-    SiJquery,
-    SiMongodb,
-    SiMysql,
     SiDjango,
-    SiSocketdotio,
-    SiMongoose,
-    SiPrisma,
     SiExpress,
     SiFlask,
+    SiGithub,
+    SiGradle,
+    SiJquery,
+    SiLinkedin,
+    SiMongodb,
+    SiMongoose,
+    SiMui,
+    SiMysql,
+    SiNextdotjs,
+    SiOpenai,
     SiPostgresql,
     SiPostman,
-    SiOpenai,
+    SiPrisma,
+    SiRedux,
+    SiSocketdotio,
+    SiTailwindcss,
+    SiTypescript,
     SiVercel,
-    SiGradle,
+    SiVisualstudiocode,
 } from "react-icons/si";
-import Link from "next/link";
+import pfp from "../../public/pfp.jpeg";
+import Card from "./Card";
+import IconCard from "./IconCard";
 
 const HomePage = () => {
     return (
-        <div className="w-10/12 m-auto gap-56 flex flex-col h-screen justify-center ">
+        <div className="w-9/12 m-auto gap-24 flex flex-col h-fit  justify-center ">
             <div className="bg-white dark:bg-gray-900 p-12 rounded-2xl shadow-2xl border dark:border-gray-700 transition-all transform hover:-translate-y-2 duration-300">
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     <div className="flex-shrink-0 mb-8 md:mb-0">
@@ -69,8 +67,8 @@ const HomePage = () => {
                         <div className="">
                             <p className="text-lg font-light leading-relaxed text-gray-800 dark:text-gray-400 ">
                                 {'"'}If something{"'"}s important enough, you
-                                should try. Even if - the probable outcome
-                                is failure.{'"'}
+                                should try. Even if - the probable outcome is
+                                failure.{'"'}
                             </p>
                             <p className="mb-6 text-lg font-light leading-relaxed text-gray-800 dark:text-gray-400 ">
                                 - Elon Musk

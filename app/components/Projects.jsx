@@ -1,33 +1,33 @@
-import ProjectCard from "./ProjectCard";
+import Image from "next/image";
+import {
+    FaDatabase,
+    FaJsSquare,
+    FaNodeJs,
+    FaPython,
+    FaReact,
+} from "react-icons/fa";
+import {
+    SiFlask,
+    SiMongodb,
+    SiMui,
+    SiMysql,
+    SiNextdotjs,
+    SiPostgresql,
+    SiPrisma,
+    SiRedux,
+    SiTailwindcss,
+    SiTypescript,
+} from "react-icons/si";
 import AiVorce from "../../public/AiVorce.png";
 import GlitchGuard from "../../public/GlitchGuard.png";
 import GroovyGear from "../../public/GroovyGear.png";
 import NextAuth from "../../public/NextAuth.png";
-import {
-    FaJsSquare,
-    FaReact,
-    FaNodeJs,
-    FaPython,
-    FaDatabase,
-} from "react-icons/fa";
-import {
-    SiNextdotjs,
-    SiTailwindcss,
-    SiMongodb,
-    SiFlask,
-    SiMysql,
-    SiTypescript,
-    SiRedux,
-    SiPrisma,
-    SiMui,
-    SiPostgresql,
-} from "react-icons/si";
-import Image from "next/image";
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
     return (
-        <div className="w-10/12 m-auto">
-            <div className="pb-12 w-fit  mb-12 ">
+        <div className="w-9/12 m-auto">
+            <div className="pb-12 w-fit">
                 <h4 className="text-4xl font-bold text-gray-900  dark:text-gray-100 mb-4 hover:text-blue-600 transition-colors duration-300">
                     Projects
                 </h4>
@@ -36,7 +36,7 @@ const Projects = () => {
                 </p>
             </div>
 
-            <div className=" flex flex-col  gap-48">
+            <div className=" flex flex-col  gap-16">
                 <ProjectCard
                     title="Ai-Vorce"
                     description="Ai-Vorce is an innovative full-stack therapeutic platform designed 
@@ -48,8 +48,7 @@ const Projects = () => {
                     imageOnLeft={true}
                     image={AiVorce}
                     codeLink={"https://github.com/ZacharyCallahan/ai-vorce"}
-                    siteLink={"https://ai-vorce.vercel.app/"}
-                >
+                    siteLink={"https://ai-vorce.vercel.app/"}>
                     <FaJsSquare color="#F7DF1E" size={32} />
                     <SiNextdotjs color="#000000" size={32} />
                     <FaReact color="#61DAFB" size={32} />
@@ -69,8 +68,7 @@ const Projects = () => {
                     codeLink={
                         "https://github.com/ZacharyCallahan/EcommerceWebsite"
                     }
-                    siteLink={"https://groovygear.vercel.app/"}
-                >
+                    siteLink={"https://groovygear.vercel.app/"}>
                     <FaJsSquare color="#F7DF1E" size={32} />
                     <FaReact color="#61DAFB" size={32} />
                     <FaNodeJs color="#339933" size={32} />
@@ -94,8 +92,7 @@ const Projects = () => {
                     imageOnLeft={true}
                     image={GlitchGuard}
                     codeLink={"https://github.com/ZacharyCallahan/glitchguard"}
-                    siteLink={false}
-                >
+                    siteLink={false}>
                     <SiTypescript color="#3178C6" size={32} />
                     <SiNextdotjs color="#000000" size={32} />
                     <FaReact color="#61DAFB" size={32} />
