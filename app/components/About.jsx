@@ -12,7 +12,7 @@ const About = () => {
                 className="rounded-md border-4 border-gradient-to-br from-blue-500 to-indigo-600 dark:border-gradient-to-br dark:from-gray-500 dark:to-gray-700"
             />
             <div className="space-y-6 ">
-                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 hover:text-blue-600 transition-colors">
                     About Me
                 </h2>
                 <p className="text-lg leading-relaxed text-gray-600 dark:text-gray-400">

@@ -27,7 +27,7 @@ const ProjectCard = ({
 
             <div className="flex flex-col justify-between text-center items-center space-y-4">
                 <div>
-                    <h5 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">
+                    <h5 className="text-3xl font-bold text-gray-800 dark:text-white hover:text-blue-600 transition-colors duration-300 mb-6">
                         {title}
                     </h5>
                     <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed mb-6">

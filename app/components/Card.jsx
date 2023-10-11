@@ -38,9 +38,9 @@ import {
     SiVisualstudiocode,
 } from "react-icons/si";
 
-const Card = ({title, children}) => {
+const Card = () => {
     return (
-        <div className="flex xl:flex-row flex-col w-full">
+        <div className="flex xl:flex-row flex-col w-full hover:shadow-xl transform transition-all duration-500">
             <div className=" xl:rounded-tr-none xl:rounded-l-xl rounded-t-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 shadow-md font-semibold">
                 <h3 className="text-xl p-6 text-left dark:border-gray-700 font-semibold text-gray-800 dark:text-gray-400">
                     FRONTEND
@@ -101,7 +101,7 @@ const Card = ({title, children}) => {
                 </div>
             </div>
 
-            <div className=" bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 shadow-md font-semibold">
+            <div className=" bg-white dark:bg-gray-800 border-y border-gray-300 dark:border-gray-700 shadow-md font-semibold">
                 <h3 className="text-xl p-6 border-gray-300 dark:border-gray-700 text-left font-semibold text-gray-800 dark:text-gray-400">
                     BACKEND
                 </h3>
