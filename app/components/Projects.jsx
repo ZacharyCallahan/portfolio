@@ -28,9 +28,9 @@ const Projects = () => {
     return (
         <div className="w-10/12 m-auto">
             <div className="pb-12 w-fit  mb-12 ">
-                <h1 className="text-4xl font-bold text-gray-900  dark:text-gray-100 mb-4 hover:text-blue-600 transition-colors duration-300">
+                <h4 className="text-4xl font-bold text-gray-900  dark:text-gray-100 mb-4 hover:text-blue-600 transition-colors duration-300">
                     Projects
-                </h1>
+                </h4>
                 <p className="text-xl font-light leading-relaxed text-gray-800 dark:text-gray-400">
                     Crafted with passion, executed with precision.
                 </p>

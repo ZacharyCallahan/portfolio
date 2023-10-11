@@ -17,9 +17,9 @@ const ProjectCard = ({ title, description, image, imageOnLeft, codeLink, siteLin
             ) : null}
             <div className="flex flex-col justify-between text-center items-center w-2/5 space-y-4">
                 <div>
-                    <h1 className="text-3xl font-bold text-gray-800 dark:text-white mb-2">
+                    <h5 className="text-3xl font-bold text-gray-800 dark:text-white mb-2">
                         {title}
-                    </h1>
+                    </h5>
                     <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                         {description}
                     </p>
