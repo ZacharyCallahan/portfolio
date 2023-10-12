@@ -8,7 +8,7 @@ import { SiGithub, SiLinkedin } from "react-icons/si";
 
 const HomePage = () => {
     return (
-        <div className="gap-24 flex flex-col h-fit  justify-center ">
+        <div id="home" className="gap-24 flex flex-col h-fit  justify-center ">
             <div className=" bg-white dark:bg-gray-900 p-12 rounded-2xl shadow-2xl border border-gray-300 dark:border-gray-700 transition-all transform hover:-translate-y-2 duration-300">
                 <div className="xl:flex-nowrap xl:justify-between xl:flex-row flex-wrap  flex flex-col items-center justify-between">
                     <div className="flex-shrink-0  mb-8 md:mb-0">

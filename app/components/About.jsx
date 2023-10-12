@@ -3,7 +3,7 @@ import AboutPFP from "../../public/AboutPFP.png";
 
 const About = () => {
     return (
-        <div className="xl:flex-nowrap xl:justify-between flex-wrap  gap-12 flex items-center justify-center bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 p-3 sm:p-6 rounded-xl shadow-md hover:shadow-xl transform transition-all duration-500">
+        <div id="about" className="xl:flex-nowrap xl:justify-between flex-wrap  gap-12 flex items-center justify-center bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 p-3 sm:p-6 rounded-xl shadow-md hover:shadow-xl transform transition-all duration-500">
             <Image
                 alt="Zachary"
                 src={AboutPFP}
