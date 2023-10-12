@@ -55,6 +55,7 @@ const Projects = () => {
                     <SiPrisma color="#2D3748" size={32} />
                     <SiPostgresql color="#336791" size={32} />
                     <SiTailwindcss color="#06B6D4" size={32} />
+                    <Image alt="auth" src={NextAuth} width={32} height={32} />
                 </ProjectCard>
                 <ProjectCard
                     title="GroovyGear"
