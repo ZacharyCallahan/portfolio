@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import IconCard from "./IconCard";
 
 const Card = () => {
@@ -215,7 +215,7 @@ const Card = () => {
                         iconName="SiApachemaven"
                         color="#C71A36"
                         size={32}
-                        label="Apache Maven"
+                        label="Maven"
                     />
                     <IconCard
                         iconName="SiGradle"
