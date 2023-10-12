@@ -1,231 +1,232 @@
-import React from 'react';
-import IconCard from './IconCard';
-import {
-    FaBootstrap,
-    FaCss3,
-    FaFigma,
-    FaGit,
-    FaGithub,
-    FaHtml5,
-    FaJava,
-    FaJsSquare,
-    FaNodeJs,
-    FaPython,
-    FaReact,
-} from "react-icons/fa";
-import {
-    SiAmazonaws,
-    SiApachemaven,
-    SiDjango,
-    SiExpress,
-    SiFlask,
-    SiGradle,
-    SiJquery,
-    SiMongodb,
-    SiMongoose,
-    SiMui,
-    SiMysql,
-    SiNextdotjs,
-    SiOpenai,
-    SiPostgresql,
-    SiPostman,
-    SiPrisma,
-    SiRedux,
-    SiSocketdotio,
-    SiTailwindcss,
-    SiTypescript,
-    SiVercel,
-    SiVisualstudiocode,
-} from "react-icons/si";
+import React from "react";
+import IconCard from "./IconCard";
 
 const Card = () => {
     return (
         <div className="flex xl:flex-row flex-col w-full hover:shadow-xl rounded-xl transform transition-all duration-500">
-            <div className=" xl:rounded-tr-none xl:rounded-l-xl rounded-t-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 shadow-md font-semibold">
-                <h3 className="text-xl p-3  text-left dark:border-gray-700 font-semibold text-gray-800 dark:text-gray-400">
+            <div className="p-3 space-y-3 xl:rounded-tr-none xl:rounded-l-xl rounded-t-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 shadow-md font-semibold">
+                <h3 className="text-xl text-left dark:border-gray-700 font-semibold text-gray-800 dark:text-gray-400">
                     FRONTEND
                 </h3>
-
-                <div className="p-3 flex flex-wrap gap-3 items-center justify-center dark:text-gray-300">
+                <div className="p-3 flex flex-wrap gap-3 space-y-3 items-center justify-center dark:text-gray-300">
                     <IconCard
-                        IconComponent={FaReact}
+                        iconName="FaReact"
                         color="#61DAFB"
                         size={32}
+                        label="React"
                     />
                     <IconCard
-                        IconComponent={FaJsSquare}
+                        iconName="FaJsSquare"
                         color="#F7DF1E"
                         size={32}
+                        label="JavaScript"
                     />
                     <IconCard
-                        IconComponent={SiTypescript}
+                        iconName="SiTypescript"
                         color="#3178C6"
                         size={32}
+                        label="TypeScript"
                     />
                     <IconCard
-                        IconComponent={FaHtml5}
+                        iconName="FaHtml5"
                         color="#E34F26"
                         size={32}
+                        label="HTML5"
                     />
                     <IconCard
-                        IconComponent={FaCss3}
+                        iconName="FaCss3"
                         color="#1572B6"
                         size={32}
+                        label="CSS3"
                     />
                     <IconCard
-                        IconComponent={SiJquery}
+                        iconName="SiJquery"
                         color="#0769AD"
                         size={32}
+                        label="jQuery"
                     />
                     <IconCard
-                        IconComponent={SiNextdotjs}
+                        iconName="SiNextdotjs"
                         color="#000000"
                         size={32}
+                        label="Next.js"
                     />
                     <IconCard
-                        IconComponent={SiTailwindcss}
+                        iconName="SiTailwindcss"
                         color="#06B6D4"
                         size={32}
+                        label="TailwindCSS"
                     />
                     <IconCard
-                        IconComponent={SiRedux}
+                        iconName="SiRedux"
                         color="#764ABC"
                         size={32}
+                        label="Redux"
                     />
-                    <IconCard IconComponent={SiMui} color="#0081CB" size={32} />
                     <IconCard
-                        IconComponent={FaBootstrap}
+                        iconName="SiMui"
+                        color="#0081CB"
+                        size={32}
+                        label="Mui"
+                    />
+                    <IconCard
+                        iconName="FaBootstrap"
                         color="#7952B3"
                         size={32}
+                        label="Bootstrap"
                     />
                 </div>
             </div>
 
-            <div className=" bg-white dark:bg-gray-800 xl:border-y border-x border-gray-300 dark:border-gray-700 shadow-md font-semibold">
+            <div className="bg-white dark:bg-gray-800 xl:border-y border-x border-gray-300 dark:border-gray-700 shadow-md font-semibold">
                 <h3 className="text-xl p-3 border-gray-300 dark:border-gray-700 text-left font-semibold text-gray-800 dark:text-gray-400">
                     BACKEND
                 </h3>
-
-                <div className="p-3 flex flex-wrap gap-3 items-center justify-center dark:text-gray-300">
+                <div className="p-3 flex flex-wrap gap-3 space-y-3 items-center justify-center dark:text-gray-300">
                     <IconCard
-                        IconComponent={FaNodeJs}
+                        iconName="FaNodeJs"
                         color="#339933"
                         size={32}
+                        label="Node.js"
                     />
                     <IconCard
-                        IconComponent={FaPython}
+                        iconName="FaPython"
                         color="#3776AB"
                         size={32}
+                        label="Python"
                     />
                     <IconCard
-                        IconComponent={FaJava}
+                        iconName="FaJava"
                         color="#007396"
                         size={32}
+                        label="Java"
                     />
                     <IconCard
-                        IconComponent={SiExpress}
+                        iconName="SiExpress"
                         color="#000000"
                         size={32}
+                        label="Express.js"
                     />
                     <IconCard
-                        IconComponent={SiFlask}
+                        iconName="SiFlask"
                         color="#000000"
                         size={32}
+                        label="Flask"
                     />
                     <IconCard
-                        IconComponent={SiDjango}
+                        iconName="SiDjango"
                         color="#092E20"
                         size={32}
+                        label="Django"
                     />
                     <IconCard
-                        IconComponent={SiMongoose}
+                        iconName="SiMongoose"
                         color="#880000"
                         size={32}
+                        label="Mongoose"
                     />
                     <IconCard
-                        IconComponent={SiPrisma}
+                        iconName="SiPrisma"
                         color="#2D3748"
                         size={32}
+                        label="Prisma"
                     />
                     <IconCard
-                        IconComponent={SiSocketdotio}
+                        iconName="SiSocketdotio"
                         color="#010101"
                         size={32}
+                        label="Socket.io"
                     />
                     <IconCard
-                        IconComponent={SiMongodb}
+                        iconName="SiMongodb"
                         color="#47A248"
                         size={32}
+                        label="MongoDB"
                     />
                     <IconCard
-                        IconComponent={SiPostgresql}
+                        iconName="SiPostgresql"
                         color="#336791"
                         size={32}
+                        label="PostgreSQL"
                     />
                     <IconCard
-                        IconComponent={SiMysql}
+                        iconName="SiMysql"
                         color="#4479A1"
                         size={32}
+                        label="MySQL"
                     />
                 </div>
             </div>
 
-            <div className=" xl:rounded-r-xl xl:rounded-bl-none rounded-b-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 shadow-md font-semibold">
+            <div className="xl:rounded-r-xl xl:rounded-bl-none rounded-b-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 shadow-md font-semibold">
                 <h3 className="text-xl p-3 border-gray-300 dark:border-gray-700 text-left font-semibold text-gray-800 dark:text-gray-400">
                     OTHER
                 </h3>
-
-                <div className=" p-3 flex flex-wrap gap-3 items-center justify-center dark:text-gray-300">
-                    <IconCard IconComponent={FaGit} color="#F05032" size={32} />
+                <div className="p-3 flex flex-wrap gap-3 space-y-3 items-center justify-center dark:text-gray-300">
                     <IconCard
-                        IconComponent={FaGithub}
+                        iconName="FaGit"
+                        color="#F05032"
+                        size={32}
+                        label="Git"
+                    />
+                    <IconCard
+                        iconName="FaGithub"
                         color="#181717"
                         size={32}
+                        label="GitHub"
                     />
                     <IconCard
-                        IconComponent={FaFigma}
+                        iconName="FaFigma"
                         color="#F24E1E"
                         size={32}
+                        label="Figma"
                     />
                     <IconCard
-                        IconComponent={SiVisualstudiocode}
+                        iconName="SiVisualstudiocode"
                         color="#007ACC"
                         size={32}
+                        label="VS Code"
                     />
                     <IconCard
-                        IconComponent={SiPostman}
+                        iconName="SiPostman"
                         color="#FF6C37"
                         size={32}
+                        label="Postman"
                     />
                     <IconCard
-                        IconComponent={SiOpenai}
+                        iconName="SiOpenai"
                         color="#2C2C32"
                         size={32}
+                        label="OpenAI"
                     />
                     <IconCard
-                        IconComponent={SiAmazonaws}
+                        iconName="SiAmazonaws"
                         color="#232F3E"
                         size={32}
+                        label="AWS"
                     />
                     <IconCard
-                        IconComponent={SiVercel}
+                        iconName="SiVercel"
                         color="#000000"
                         size={32}
+                        label="Vercel"
                     />
                     <IconCard
-                        IconComponent={SiApachemaven}
+                        iconName="SiApachemaven"
                         color="#C71A36"
                         size={32}
+                        label="Apache Maven"
                     />
                     <IconCard
-                        IconComponent={SiGradle}
+                        iconName="SiGradle"
                         color="#02303A"
                         size={32}
+                        label="Gradle"
                     />
                 </div>
             </div>
         </div>
     );
-}
+};
 
 export default Card;

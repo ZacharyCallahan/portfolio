@@ -2,3 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+/* globals.css */
+
+:root {
+    --cursor-color: #3B82F6;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --cursor-color: #93C5FD;
+    }
+}
+
+.cursor-trail {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--cursor-color);
+    opacity: 0.8;
+    animation: fadeAway 1s forwards;
+}
+
+@keyframes fadeAway {
+    to {
+        opacity: 0;
+    }
+}
+
