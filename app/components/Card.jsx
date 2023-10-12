@@ -185,7 +185,7 @@ const Card = () => {
                         iconName="SiVisualstudiocode"
                         color="#007ACC"
                         size={32}
-                        label="VS Code"
+                        label="VSCode"
                     />
                     <IconCard
                         iconName="SiPostman"
