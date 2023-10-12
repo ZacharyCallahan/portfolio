@@ -42,7 +42,7 @@ const Card = () => {
     return (
         <div className="flex xl:flex-row flex-col w-full hover:shadow-xl rounded-xl transform transition-all duration-500">
             <div className=" xl:rounded-tr-none xl:rounded-l-xl rounded-t-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 shadow-md font-semibold">
-                <h3 className="text-xl p-6 pb-3 text-left dark:border-gray-700 font-semibold text-gray-800 dark:text-gray-400">
+                <h3 className="text-xl p-3  text-left dark:border-gray-700 font-semibold text-gray-800 dark:text-gray-400">
                     FRONTEND
                 </h3>
 
@@ -102,7 +102,7 @@ const Card = () => {
             </div>
 
             <div className=" bg-white dark:bg-gray-800 xl:border-y border-x border-gray-300 dark:border-gray-700 shadow-md font-semibold">
-                <h3 className="text-xl p-6 pb-3 border-gray-300 dark:border-gray-700 text-left font-semibold text-gray-800 dark:text-gray-400">
+                <h3 className="text-xl p-3 border-gray-300 dark:border-gray-700 text-left font-semibold text-gray-800 dark:text-gray-400">
                     BACKEND
                 </h3>
 
@@ -171,7 +171,7 @@ const Card = () => {
             </div>
 
             <div className=" xl:rounded-r-xl xl:rounded-bl-none rounded-b-xl bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 shadow-md font-semibold">
-                <h3 className="text-xl p-6 pb-3 border-gray-300 dark:border-gray-700 text-left font-semibold text-gray-800 dark:text-gray-400">
+                <h3 className="text-xl p-3 border-gray-300 dark:border-gray-700 text-left font-semibold text-gray-800 dark:text-gray-400">
                     OTHER
                 </h3>
 
