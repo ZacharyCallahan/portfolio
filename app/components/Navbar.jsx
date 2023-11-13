@@ -16,18 +16,19 @@ const Navbar = () => {
                     </li>
                     <li>
                         <NavLinks
-                            label={"Projects"}
-                            link={"#"}
-                            elementId={"projects"}
-                        />
-                    </li>
-                    <li>
-                        <NavLinks
                             label={"About"}
                             link={"#"}
                             elementId={"about"}
                         />
                     </li>
+                    <li>
+                        <NavLinks
+                            label={"Projects"}
+                            link={"#"}
+                            elementId={"projects"}
+                        />
+                    </li>
+
                 </ul>
             </div>
         </nav>
