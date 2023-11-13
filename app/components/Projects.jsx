@@ -1,6 +1,5 @@
 import Image from "next/image";
 import {
-    FaDatabase,
     FaJsSquare,
     FaNodeJs,
     FaPython,
@@ -21,6 +20,7 @@ import {
 import AiVorce from "../../public/AiVorce.png";
 import GlitchGuard from "../../public/GlitchGuard.png";
 import GroovyGear from "../../public/GroovyGear.png";
+import TeslaClone from "../../public/TeslaClone.png";
 import NextAuth from "../../public/NextAuth.png";
 import ProjectCard from "./ProjectCard";
 
@@ -103,6 +103,27 @@ const Projects = () => {
                     <SiTailwindcss color="#06B6D4" size={32} />
                     <Image alt="auth" src={NextAuth} width={32} height={32} />
                     {/* For NextAuth.js, you might want to use a different icon or library */}
+                </ProjectCard>
+                <ProjectCard
+                    title="Tesla Clone"
+                    description="
+                    Teslaclone is the embodiment of my dream job in web development, 
+                    crafted with a deep appreciation for Tesla's innovation. 
+                    This website, designed to captivate Tesla enthusiasts, 
+                    is built using a combination of Next.js, React, and Tailwind CSS. 
+                    The use of Next.js ensures efficient server-side rendering, while React 
+                    aids in creating a dynamic and interactive user interface. Tailwind CSS 
+                    adds a layer of sleek, responsive design, mirroring Tesla's modern aesthetic. 
+                    Together, these technologies make Teslaclone a testament to my dedication to developing 
+                    engaging and high-quality web experiences.
+                    "
+                    imageOnLeft={false}
+                    image={TeslaClone}
+                    codeLink={"https://github.com/ZacharyCallahan/tesla-clone"}
+                    siteLink={"https://tesla-clone-dev.vercel.app"}>
+                    <SiNextdotjs color="#000000" size={32} />
+                    <FaReact color="#61DAFB" size={32} />
+                    <SiTailwindcss color="#06B6D4" size={32} />
                 </ProjectCard>
             </div>
         </div>
