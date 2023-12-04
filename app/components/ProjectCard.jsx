@@ -11,6 +11,7 @@ const ProjectCard = ({
     codeLink,
     siteLink,
     children,
+    fullyDeveloped,
 }) => {
     return (
         <div
@@ -26,6 +27,27 @@ const ProjectCard = ({
             />
 
             <div className="flex flex-col justify-between text-center items-center space-y-4">
+                {
+                    !fullyDeveloped && <div className="flex items-center gap-2 text-red-600 dark:text-red-400 hover:text-red-500">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-6 w-6"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M6 18L18 6M6 6l12 12"
+                                />
+                            </svg>
+                        
+                        <p className="text-lg font-semibold">
+                            Currently Developing
+                        </p>
+                    </div>
+                }
                 <div>
                     <h5 className="text-3xl font-bold text-gray-800 dark:text-white hover:text-blue-600 transition-colors duration-300 mb-6">
                         {title}

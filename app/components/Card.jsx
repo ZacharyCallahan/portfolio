@@ -8,7 +8,7 @@ const Card = () => {
                 <h3 className="text-xl text-left dark:border-gray-700 font-semibold text-gray-800 dark:text-gray-400">
                     FRONTEND
                 </h3>
-                <div className="p-3 flex flex-wrap gap-3 space-y-3 items-center justify-center dark:text-gray-300">
+                <div className="p-3 flex flex-wrap gap-3  items-center justify-center dark:text-gray-300">
                     <IconCard
                         iconName="FaReact"
                         color="#61DAFB"
@@ -82,7 +82,7 @@ const Card = () => {
                 <h3 className="text-xl p-3 border-gray-300 dark:border-gray-700 text-left font-semibold text-gray-800 dark:text-gray-400">
                     BACKEND
                 </h3>
-                <div className="p-3 flex flex-wrap gap-3 space-y-3 items-center justify-center dark:text-gray-300">
+                <div className="p-3 flex flex-wrap gap-3  items-center justify-center dark:text-gray-300">
                     <IconCard
                         iconName="FaNodeJs"
                         color="#339933"
@@ -162,7 +162,7 @@ const Card = () => {
                 <h3 className="text-xl p-3 border-gray-300 dark:border-gray-700 text-left font-semibold text-gray-800 dark:text-gray-400">
                     OTHER
                 </h3>
-                <div className="p-3 flex flex-wrap gap-3 space-y-3 items-center justify-center dark:text-gray-300">
+                <div className="p-3 flex flex-wrap gap-3  items-center justify-center dark:text-gray-300">
                     <IconCard
                         iconName="FaGit"
                         color="#F05032"
