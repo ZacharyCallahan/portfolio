@@ -155,6 +155,12 @@ const Card = () => {
                         size={32}
                         label="MySQL"
                     />
+                    <IconCard
+                        iconName="SiStripe"
+                        color="#008CDD"
+                        size={32}
+                        label="Stripe"
+                    />
                 </div>
             </div>
 
@@ -210,6 +216,12 @@ const Card = () => {
                         color="#000000"
                         size={32}
                         label="Vercel"
+                    />
+                    <IconCard
+                        iconName="SiRailway"
+                        color="#430098"
+                        size={32}
+                        label="Railway"
                     />
                     <IconCard
                         iconName="SiApachemaven"

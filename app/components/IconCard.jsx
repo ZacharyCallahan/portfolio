@@ -30,8 +30,10 @@ import {
     SiPostgresql,
     SiPostman,
     SiPrisma,
+    SiRailway,
     SiRedux,
     SiSocketdotio,
+    SiStripe,
     SiTailwindcss,
     SiTypescript,
     SiVercel,
@@ -43,6 +45,7 @@ const IconCard = ({ iconName, color, size, label }) => {
 
     const renderIcon = () => {
         const icons = {
+
             FaReact: (
                 <FaReact
                     className="text-gray-600 dark:text-gray-300"
@@ -241,6 +244,19 @@ const IconCard = ({ iconName, color, size, label }) => {
                     size={size}
                 />
             ),
+            SiStripe: (
+                <SiStripe
+                    className="text-gray-600 dark:text-gray-300"
+                    size={size}
+                />
+            ),
+            SiRailway: (
+                <SiRailway
+                    className="text-gray-600 dark:text-gray-300"
+                    size={size}
+                />
+            ),
+            
         };
 
         return icons[iconName] || null;

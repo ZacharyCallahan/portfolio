@@ -16,25 +16,12 @@ const About = () => {
                     About Me
                 </h2>
                 <p className="text-lg leading-relaxed text-gray-600 dark:text-gray-400">
-                    As a driven Full Stack Web Developer, I bring a solid
-                    foundation in Java, Python, and JavaScript to the table. My
-                    journey in the realm of web development is fueled by a
-                    passion for creating innovative solutions. I continuously
-                    seek exciting opportunities in the Full-Stack, Back-End, or
-                    Front-End developer fields to apply my skills. I thrive on
-                    collaborative projects, and I{"'"}m dedicated to delivering
-                    high-quality results that meet the evolving needs of
-                    businesses and customers alike.
-                </p>
-                <p className="text-lg  leading-relaxed text-gray-600 dark:text-gray-400">
-                    Technology is my canvas, and I use code as my brush to craft
-                    digital experiences. With a deep commitment to staying
-                    current with industry trends and a knack for
-                    problem-solving, I{"'"}m ready to tackle any challenge that
-                    comes my way. My goal is to create user-friendly, visually
-                    appealing, and robust web applications that cater to
-                    evolving business and customer needs, all while ensuring a
-                    seamless and engaging user experience.
+                    I’m a Full Stack Web Developer skilled in Java, Python, and JavaScript,
+                    driven by a passion for crafting innovative digital solutions.
+                    I excel in collaborative projects and continuously stay ahead of industry trends,
+                    ensuring each build meets evolving business and customer needs. Whether Front-End,
+                    Back-End, or Full-Stack, I deliver high-quality, user-focused applications that
+                    seamlessly blend visual appeal and robust functionality.
                 </p>
             </div>
         </div>

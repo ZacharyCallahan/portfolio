@@ -12,16 +12,19 @@ import {
     SiNextdotjs,
     SiPostgresql,
     SiPrisma,
+    SiRailway,
     SiRedux,
+    SiStripe,
     SiTailwindcss,
     SiTypescript,
+    SiVercel,
 } from "react-icons/si";
 import AiVorce from "../../public/AiVorce.png";
 import GlitchGuard from "../../public/GlitchGuard.png";
 import GroovyGear from "../../public/GroovyGear.png";
 import TeslaClone from "../../public/TeslaClone.png";
 import AiFinancial from "../../public/AiFinancial.png";
-import SixShooter from "../../public/SixShooter.png";
+import SixShooter from "../../public/SixShooter.jpeg";
 import NextAuth from "../../public/NextAuth.png";
 import ProjectCard from "./ProjectCard";
 
@@ -39,17 +42,37 @@ const Projects = () => {
 
             <div className=" flex flex-col  gap-16">
                 <ProjectCard
+                    title="6ixShooter Basketball Training"
+                    description="I collaborated with TikTok basketball sensation 6ixShooter (Seth McCoy) 
+                    to revamp his website, capturing his high-energy court presence in a sleek digital 
+                    experience. Using Next.js, React, Tailwind CSS, Prisma, PostgreSQL, NextAuth.js, Stripe, 
+                    Vercel, and Railway, I built a modern “digital arena” that immerses fans in Seth’s flair 
+                    for basketball, while providing an engaging online coaching course."
+                    fullyDeveloped={true}
+                    imageOnLeft={false}
+                    image={SixShooter}
+                    codeLink={"https://github.com/6ixShooterLLC/6ix-shooter"}
+                    siteLink={"https://www.6ixshooter.net/"}>
+                    <SiNextdotjs color="#000000" size={32} />
+                    <FaReact color="#61DAFB" size={32} />
+                    <SiTailwindcss color="#06B6D4" size={32} />
+                    <FaJsSquare color="#F7DF1E" size={32} />
+                    <SiPrisma color="#2D3748" size={32} />
+                    <SiPostgresql color="#336791" size={32} />
+                    <SiTailwindcss color="#06B6D4" size={32} />
+                    <Image alt="auth" src={NextAuth} width={32} height={32} />
+                    <SiStripe color="#008CDD" size={32} />
+                    <SiVercel size={32} />
+                    <SiRailway size={32} />
+                </ProjectCard>
+                <ProjectCard
                     title="Tesla Clone"
                     description="
-                    Teslaclone is the embodiment of my dream job in web development, 
-                    crafted with a deep appreciation for Tesla's innovation. 
-                    This website, designed to captivate Tesla enthusiasts, 
-                    is built using a combination of Next.js, React, and Tailwind CSS. 
-                    The use of Next.js ensures efficient server-side rendering, while React 
-                    aids in creating a dynamic and interactive user interface. Tailwind CSS 
-                    adds a layer of sleek, responsive design, mirroring Tesla's modern aesthetic. 
-                    Together, these technologies make Teslaclone a testament to my dedication to developing 
-                    engaging and high-quality web experiences.
+                    Teslaclone captures my passion for web development and Tesla’s 
+                    forward-thinking ethos. Built with Next.js, React, and Tailwind 
+                    CSS, it delivers efficient server-side rendering, a dynamic UI, 
+                    and a sleek, responsive design that echoes Tesla’s modern style—showcasing 
+                    my dedication to creating engaging, high-quality web experiences.
                     "
                     fullyDeveloped={true}
                     imageOnLeft={true}
@@ -63,16 +86,13 @@ const Projects = () => {
                 <ProjectCard
                     title="Ai-Financial"
                     description="
-                    Ai-Financial, my custom-built budgeting app, sprang from my desire to dive 
-                    into budgeting without the hefty fees. Frustrated by other sites charging 
-                    $20-$50 just for automatic bank data imports, I decided to create a solution
-                     myself. Combining Next.js, React, and Tailwind CSS, I crafted a sleek and 
-                     interactive front-end. The back-end is powered by Prisma, PostgreSQL, and 
-                     NextAuth.js for robust data management and secure authentication. What sets 
-                     Ai-Financial apart is its use of OpenAI's GPT-3 for personalized financial 
-                     advice and the Plaid API for direct, secure bank connections. 
+                    Ai-Financial was born from my frustration with pricey budgeting tools. 
+                    Determined to skip hefty fees, I built a solution using Next.js, React,
+                     Tailwind CSS, Prisma, PostgreSQL, and NextAuth.js, ensuring a sleek
+                      front-end and robust, secure back-end. GPT-3 offers personalized
+                       financial advice, while the Plaid API directly and securely connects to user bank data.
                     "
-                    fullyDeveloped={false}
+                    fullyDeveloped={true}
                     imageOnLeft={false}
                     image={AiFinancial}
                     codeLink={"https://github.com/ZacharyCallahan/finance-tracker"}
@@ -87,36 +107,13 @@ const Projects = () => {
 
                 </ProjectCard>
                 <ProjectCard
-                    title="6ixShooter Basketball Training"
-                    description="Designed for the basketball TikTok sensation 6ixShooter, aka Seth McCoy,
-                     this project was a unique opportunity to revamp a website for a rising star in the 
-                     sports entertainment world. I dove into creating 
-                     a dynamic, visually appealing platform that mirrors Seth's energetic and engaging presence
-                      on the court. The website, crafted with Next.js, Tailwind CSS, and React, is a testament 
-                      to sleek, modern web design, focusing purely on front-end development. It's not just a 
-                      website; it's a digital arena, reflecting 6ixShooter's flair and passion for basketball, 
-                      while offering fans an immersive coaching course."
-                    fullyDeveloped={true}
-                    imageOnLeft={true}
-                    image={SixShooter}
-                    codeLink={"https://github.com/ZacharyCallahan/6ix-shooter"}
-                    siteLink={"https://6ix-shooter.vercel.app/"}>
-
-                    <SiNextdotjs color="#000000" size={32} />
-                    <FaReact color="#61DAFB" size={32} />
-                    <SiTailwindcss color="#06B6D4" size={32} />
-
-                </ProjectCard>
-
-                <ProjectCard
                     title="Ai-Vorce"
-                    description="Ai-Vorce is an innovative full-stack therapeutic platform designed 
-                    to assist couples in enhancing their communication. Leveraging the capabilities of ChatGPT,
-                     we've tailored it specifically to provide therapy-centric guidance. Recognizing the escalating 
-                     divorce rates in the U.S. and the limited availability of therapeutic resources,
-                     Ai-Vorce offers couples the opportunity for therapeutic interaction anytime they need.
+                    description="Ai-Vorce is a full-stack therapy platform for couples seeking 
+                    better communication. Powered by ChatGPT, it provides therapy-focused 
+                    insights on-demand, addressing rising divorce rates and limited therapeutic 
+                    resources by offering 24/7 accessible support.
                     "
-                    fullyDeveloped={false}
+                    fullyDeveloped={true}
                     imageOnLeft={true}
                     image={AiVorce}
                     codeLink={"https://github.com/ZacharyCallahan/ai-vorce"}
@@ -131,11 +128,10 @@ const Projects = () => {
                 </ProjectCard>
                 <ProjectCard
                     title="GroovyGear"
-                    description="GroovyGear is a comprehensive full-stack e-commerce platform, 
-                    integrating Stripe for seamless payment processing and utilizing Next.js for 
-                    efficient server-side rendering. As my initial full-stack project, 
-                    it has been a significant learning journey. 
-                    I'm actively enhancing its functionalities and addressing any identified issues."
+                    description="GroovyGear is a full-stack e-commerce platform that 
+                    pairs Next.js with Stripe for smooth payment handling. 
+                    As my first full-stack build, it has been a valuable learning 
+                    experience—one I’m continually improving and refining."
                     fullyDeveloped={true}
                     imageOnLeft={false}
                     image={GroovyGear}
@@ -155,13 +151,11 @@ const Projects = () => {
                 <ProjectCard
                     title="GlitchGuard"
                     description="
-                    GlitchGuard serves as a robust full-stack bug tracking platform, 
-                    enabling users to pinpoint and report website glitches. Designed to assist 
-                    developers in maintaining the integrity of their projects, 
-                    his tool facilitates the reporting of issues and allows developers 
-                    to monitor, address, and resolve them. With Next.js underpinning its 
-                    server-side rendering and NextAuth.js ensuring secure authentication,
-                     GlitchGuard stands as an indispensable tool for web development.
+                    GlitchGuard is a full-stack bug tracking platform that 
+                    empowers developers to pinpoint and fix website glitches.
+                     Built on Next.js for server-side rendering and NextAuth.js 
+                     for secure authentication, it streamlines issue reporting 
+                     and resolution—making it an essential tool for any web project.
                     "
                     imageOnLeft={true}
                     fullyDeveloped={true}
@@ -176,7 +170,6 @@ const Projects = () => {
                     <SiPostgresql color="#336791" size={32} />
                     <SiTailwindcss color="#06B6D4" size={32} />
                     <Image alt="auth" src={NextAuth} width={32} height={32} />
-                    {/* For NextAuth.js, you might want to use a different icon or library */}
                 </ProjectCard>
             </div>
         </div>
